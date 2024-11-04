@@ -54,8 +54,8 @@ def get_target():
     return target
 
 def check_spf_vulnerability(spf_record):
-    if '+all' in spf_record:
-        return "SPF vulnerable: Permissive (+all) allows any server to send emails."
+    if '?all' in spf_record:
+        return "SPF vulnerable: Permissive (?all) allows any server to send emails."
     elif '-all' in spf_record:
         return "SPF configured correctly with -all (strict policy)."
     elif '~all' in spf_record:
