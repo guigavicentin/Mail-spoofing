@@ -1,4 +1,5 @@
 Mail Spoofing Checker
+
 Este script em Python verifica se um domínio está protegido contra mail spoofing ao analisar as configurações de SPF, DMARC e DKIM.
 
 Funcionalidades:
