@@ -2,7 +2,7 @@ Mail Spoofing Checker
 Este script em Python verifica se um domínio está protegido contra mail spoofing ao analisar as configurações de SPF, DMARC e DKIM.
 
 Funcionalidades:
-SPF Check: Verifica a presença de um registro SPF e avalia sua política (-all, ~all, ou +all), identificando se está configurado de forma segura.
+SPF Check: Verifica a presença de um registro SPF e avalia sua política (-all, ~all, ou ?all), identificando se está configurado de forma segura.
 DMARC Check: Verifica se o registro DMARC está presente e corretamente configurado.
 DKIM Check: Confirma a presença de um registro DKIM com o seletor padrão (default._domainkey).
 Como funciona:
